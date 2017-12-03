@@ -11,15 +11,6 @@
         .list-label {
             font-weight: bold;
         }
-        .photo {
-            float: right;
-            object-fit: cover;
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-            margin-right: 12px;
-            margin-bottom: 12px;
-        }
         .info::after {
             content: '';
             display: table;
@@ -32,7 +23,16 @@
                         0 3px 6px rgba(0, 0, 0, .23);
             margin: 16px;
             padding: 16px;
+        }.photo {
+            float: right;
+            object-fit: cover;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-right: 12px;
+            margin-bottom: 12px;
         }
+        
     </style>
 </head>
   <body>
@@ -71,8 +71,7 @@
 		 <td width="92%"> 
             <h2 style="text-align:center;">Биография</23>
             <img src="./WmDYqmFhDSw.jpg" alt="фото" class="photo">
-            <p>
-                Соколюк Анна Владимировна
+            <p style="text-align:justify;"> Соколюк Анна Владимировна
                 Родилась в городе Витебске. В 2013 году закончила ГУО"Гимназия №8"г. Витебска. 
                 В 2017 году закончила биологический факультет БГУ по специальности 
                 "Биолгия (научно-педагогическая деятельность)", кафедра генетики.
